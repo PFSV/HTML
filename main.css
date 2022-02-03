@@ -1,19 +1,24 @@
-.chickenpic{
-    width: 350px; margin-left: 50px;margin-top: 50px
+.box{
+    width:100px;
+    background-color: magenta;
+    height: 100px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid salmon;
+    border-radius: 25px;
+    box-shadow: 15px 15px 5px gold;
+
 }
 
-.phonenumber{
-    font-size:35px ;color:green; letter-spacing:1px
-}
+.spam{
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
 
-.yangnyeom{
-    width: 400px; display:block; margin-left:auto; margin-right: auto
-}
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;;
+    margin-bottom: 30px;
 
-.font1{
-    font-size: 25px; color:crimson
-}
-
-.font2{
-    font-size: 45px; font-family:'gulim'; color:rgb(194, 206, 29);font-weight: 900
 }
