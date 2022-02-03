@@ -1,0 +1,19 @@
+.chickenpic{
+    width: 350px; margin-left: 50px;margin-top: 50px
+}
+
+.phonenumber{
+    font-size:35px ;color:green; letter-spacing:1px
+}
+
+.yangnyeom{
+    width: 400px; display:block; margin-left:auto; margin-right: auto
+}
+
+.font1{
+    font-size: 25px; color:crimson
+}
+
+.font2{
+    font-size: 45px; font-family:'gulim'; color:rgb(194, 206, 29);font-weight: 900
+}
