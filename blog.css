@@ -1,0 +1,66 @@
+.container{
+    width: 800px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.leftbox{
+    width: 70%;
+    height: 150px;
+    background-color:red;
+    float: left;
+}
+
+.lefttop{
+    width:100%;
+    height:30%;
+    background-color: green;
+    float: left;
+}
+
+.lefttopleft{
+    width: 15%;
+    height: 100%;
+    background-color: orange;
+    float: left;
+    display: block
+}
+
+.lefttopright{
+    width: 85%;
+    height: 100%;
+    background-color: purple;
+    float: right;
+    display: block;
+}
+
+
+.smalldg{
+    width:100%;
+    height: 100%;
+    float: left;
+}
+
+.leftbottom{
+    width: 100%;
+    height:70%;
+    background-color: yellow;
+    clear: both;
+}
+
+.rightbox{
+    width: 30%;
+    height: 150px;
+    background-color: blue;
+    float: left;
+}
+.pic{
+    width:100%;
+    height:100%;
+    float:left;
+}
+
+.font{
+    font-size: 13px;
+    margin: 3px;
+}
