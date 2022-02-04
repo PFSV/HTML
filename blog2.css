@@ -1,0 +1,73 @@
+.container{
+    width:1200px;
+    height:666px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.yenaContainer{
+    width: 100%;
+    height:25%;
+    background-color: red;
+    float: left;
+
+}
+
+.yprofile{
+    width: 15%;
+    margin-left: 0%;
+    margin-right:75%;
+    height:100%;
+    background-color: orange;
+    float: left;
+}
+
+.ypic{
+    width: 100%;
+    height: 80%;
+    display: block;
+}
+
+.sjprofile{
+    width: 15%;
+    margin-left: 42.5%;
+    margin-right:57.5%;
+    height:100%;
+    background-color: orange;
+    float: left;
+}
+
+.sjpic{
+    width: 100%;
+    height: 80%;
+    display: block;
+}
+
+
+.seungprofile{
+    width: 15%;
+    height:100%;
+    background-color: orange;
+    float: right;
+}
+
+.seungpic{
+    width: 100%;
+    height: 80%;
+    display: block;
+}
+
+.sjContainer{
+    width: 100%;
+    height:25%;
+    background-color: blue;
+    float:left;
+}
+.seungContainer{
+    width: 100%;
+    height: 25%;
+    background-color: green;
+    float: left;
+}
