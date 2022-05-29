@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="main.css" rel="stylesheet">
+<link href="cat1.jpeg" ref="icon">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>아이디 패스워드 4</title>
+</head>
+
+<body>
+    <div class="box" id="idcontent"> ID를 입력하세요
+        <button id="closeid">닫기버튼</button>
+    </div>
+    <button id = "displayid">id버튼</button>
+
+    <div class = "box" id = "pwcontent"> 비밀번호를 입력하세요
+        <button id = "closepw">닫기버튼</button>
+    </div>
+
+    <button id = "displaypw">pw버튼</button>
+
+    <script>
+        document.getElementById("closeid").addEventListener('click', function () {
+            document.getElementById("idcontent").style.display = "none";
+        });
+        document.getElementById("closepw").addEventListener('click', function () {
+            document.getElementById("pwcontent").style.display = "none";
+        });
+        document.getElementById("displayid").addEventListener('click', function(){
+            document.getElementById("idcontent").style.display = "block";
+        })
+        document.getElementById("displaypw").addEventListener('click', function(){
+            document.getElementById("pwcontent").style.display = "block";
+        })
+    </script>
+</body>
+
+</html>
