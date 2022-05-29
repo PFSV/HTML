@@ -1,26 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<link href="main.css" rel="stylesheet">
+<link href="cat1.jpeg" rel="icon">
+<script src="main.js"></script>
+
 <head>
-  <title>안녕하세요</title>
-  <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <title>Document</title>
+
 </head>
+
 <body>
-  <h1>
-      포켓몬 빵 팝니다.
-  </h1>
-  <p>
-      안녕하세요 <a href = "https://www.naver.com">이동하기</a>
-  </p>
+    <div class='box' id="button">박스임</div>
+    <button onclick="여는함수()"> 켜는버튼</button>
+    <button onclick="닫는함수()">닫는버튼</button>
 
-<a href = "https://shoppinghow.kakao.com/m/search/q/%ED%8F%AC%EC%BC%93%EB%AA%AC%EC%8A%A4%ED%84%B0%EB%B9%B5"><img src = "pokemon.jpeg">
 
-</a>
 
-<ol>
-    <li>로켓단의 초코롤빵</li>
-    <li>꼬부기의 달콤파삭 꼬부기빵</li>
+    <h1 id="main">Character!</h1>
+    <script>
+        document.getElementById("main").innerHTML = "안녕하세요";
+        document.getElementById("main").style.color = "red";
+        document.getElementById("main").style.fontSize = "50px";
 
-  <div>
-  </div>
+        function 여는함수() {
+            document.getElementById('button').style.display = 'block';
+        }
+
+        function 닫는함수() {
+            document.getElementById('button').style.display = 'none';
+        }
+    </script>
 </body>
+
+
 </html>

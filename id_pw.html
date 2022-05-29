@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link href = "main.css" rel = "stylesheet">
+    <link href= "cat1.jpeg" ref = "icon">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class = "box" id = "display_id">"아이디를 입력하세요"</div>
+    <div class = "box" id = "display_pw"> "비밀번호를 입력하세요"</div>
+    <button onclick = "버튼('block')">id버튼</button>
+    <button onclick = "버튼2('block')">pw버튼</button>
+<script>
+function 버튼(hole){
+    document.getElementById("display_id").style.display = hole;
+}
+function 버튼2(hole){
+    document.getElementById("display_pw").style.display = hole;
+}
+</script>    
+</body>
+</html>
