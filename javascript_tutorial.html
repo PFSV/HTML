@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // alert(Math.sqrt(36));
+        alert(Math.random());
+        // alert(typeof 1.0);
+        // alert("파이썬\n프로그래밍 개론".length);
+        // var a = 1;
+        // console.log(a);
+
+        // var univ = "HUFS"
+        // if (univ === "HUFS"){
+        //     console.log("Able to join the Quinquatria");
+        //     alert("You are allowed to join the Quinquatria");
+        // } else if (univ === "HUFS Global"){
+        //     console.log("Able to join the Quinquatria");
+        //     alert("You are allowed to join the Quinquatria");
+        // } else{
+        //     console.log("Unable to join the Quinquatria");
+        //     alert("You are not allowed to join the Quinquatria");
+        // }
+
+        // var univ = "HUFS"
+        // var major = "ELC"
+        // if (univ === "HUFS" && major == "ELLT") {
+        //     console.log("Able to join the Crimson Red Rock Festival");
+        //     alert("You are able to join the Crimson Red Rock Festival");
+        // } else if ((univ === "HUFS" && major == "ELC") || (univ === "HUFS" && major == "EICC")) {
+        //     console.log("Able to join the Crimson Red Rock Festival");
+        //     alert("You are able to join the Crimson Red Rock Festival");
+        // } else {
+        //     console.log("Unable to join the Crimson Red Rock Festival");
+        //     alert("You are not able to join the Crimson Red Rock Festival");
+        // }
+
+        // var i = 0;
+        // while(i < 10){
+        //     document.write("Foundation for Analytics with Python"+ " "+i+ "<br />");
+        //     i++
+        // }
+
+        // for (n =1; n<=10; n++){
+        //     document.write(n+" 번째 문장입니다. <br />")
+
+        // }
+
+        // function get_members() {
+        //     return ['egoing', 'k8805', 'sorialgi'];
+        // }
+        // members = get_members();
+        // // members.length는 배열에 담긴 값의 숫자를 알려준다. 
+        // for (i = 0; i < members.length; i++) {
+        //     // members[i].toUpperCase()는 members[i]에 담긴 문자를 대문자로 변환해준다.
+        //     document.write(members[i].toUpperCase());
+        //     document.write('<br />');
+        // }
+        // document.write(members.length)
+
+        roll = ["이승진", "김지윤", "김다은"]
+
+        // roll = roll.concat(["김새로이","박새로이"])
+
+        // roll = roll.concat("김새로이")
+        // roll.pop();
+        // for (n = 0; n < roll.length; n++) {
+        //     document.write("튀긴 닭 그룹의 " + (n + 1) + "번째 멤버는 " + roll[n] + "입니다." + "<br />");
+        // }
+        // var li = ['a', 'b', 'c', 'd', 'e'];
+        // li.splice(2, 0, 'B');
+        // alert(li);
+        navigator.getBattery().then(battery => {
+  function updateAllBatteryInfo(){
+    updateChargeInfo();
+    updateLevelInfo();
+    updateChargingInfo();
+    updateDischargingInfo();
+  }
+  updateAllBatteryInfo();
+
+  battery.addEventListener('chargingchange', () => {
+    updateChargeInfo();
+  });
+  function updateChargeInfo(){
+    document.write("Battery charging? "
+                + (battery.charging ? "Yes" : "No"));
+  }
+
+  battery.addEventListener('levelchange', () => {
+    updateLevelInfo();
+  });
+  function updateLevelInfo(){
+    console.log("Battery level: "
+                + battery.level * 100 + "%");
+  }
+
+  battery.addEventListener('chargingtimechange', () => {
+    updateChargingInfo();
+  });
+  function updateChargingInfo(){
+    console.log("Battery charging time: "
+                 + battery.chargingTime + " seconds");
+  }
+
+  battery.addEventListener('dischargingtimechange', () => {
+    updateDischargingInfo();
+  });
+  function updateDischargingInfo(){
+    console.log("Battery discharging time: "
+                 + battery.dischargingTime + " seconds");
+  }
+
+});
+
+    </script>
+</body>
+
+</html>
